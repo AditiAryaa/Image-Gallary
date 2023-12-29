@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.card {
+  display: flex;
+
+  margin-top: 40px;
+  width: 900px;
+  height: 280px;
+  background-color: #003380;
+  box-shadow: 1px 1px 10px black;
+}
+.card img {
+  height: 240px;
+  width: 330px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.card > div {
+  width: 450px;
+  padding: 40px;
+}
+.title {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.description {
+  font-size: large;
+  margin-top: 14px;
+}

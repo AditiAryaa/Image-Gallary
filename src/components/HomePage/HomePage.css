@@ -1,0 +1,14 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.imageCard img {
+  height: 150px;
+  width: 240px;
+  border-radius: 20px;
+}
